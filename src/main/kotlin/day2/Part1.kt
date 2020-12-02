@@ -1,6 +1,5 @@
 package day2
 
-
 fun main() {
     val inputData = importData("src/main/kotlin/day2/input.txt")
     val validPasswords = inputData.filter { isPasswordValid(it) }
